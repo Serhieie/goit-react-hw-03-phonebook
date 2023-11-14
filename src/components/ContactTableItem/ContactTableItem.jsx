@@ -66,7 +66,7 @@ export default function ContactTableItem({ contact, index, onDeleteContact }) {
         </h2>
         <div
           className="flex jusrify-center items-center mx-auto mt-10 
-             md:mt-6 gap-1 "
+             md:mt-6 gap-1 w-80"
         >
           <button
             onClick={handleDelete}
